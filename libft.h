@@ -20,6 +20,7 @@ size_t  ft_strlcpy(char *dest, char *src, unsigned int size);
 size_t  ft_strlcat(char *dst, const char *src, size_t size);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 char    *ft_strdup(const char *s);
+char    *ft_substr(char const *s, unsigned int start, size_t len);
 void    ft_bzero(void *s, size_t n);
 void    *ft_calloc(size_t nmemb, size_t size);
 void    *ft_memcpy(void *restrict dest, const void *restrict src, size_t n);

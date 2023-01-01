@@ -1,10 +1,10 @@
 NAME	=	libft.a
 
-CC		=	gcc
+CC	=	gcc
 
 CFLAGS	=	-Wall -Werror -Wextra -I
 
-RM		=	rm -rf
+RM	=	rm -rf
 
 SRCS	=\
 			ft_atoi.c\
@@ -42,7 +42,7 @@ SRCS	=\
 			ft_tolower.c\
 			ft_toupper.c
 
-OBJS		= ${SRCS:.c = .o}
+OBJS	= ${SRCS:.c = .o}
 
 all:		${NAME}
 

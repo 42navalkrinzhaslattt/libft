@@ -1,7 +1,7 @@
 # libft
 The "libft" repository is a comprehensive collection of utility functions and libraries written in C. The repository contains three main components:
 
-Libft Functions:
+libft Functions:
 This section of the repository contains a set of custom implementations of fundamental functions found in the C standard library. These functions cover a wide range of operations, including string manipulation, memory management, linked list operations, character checking, and more.
 
 ft_printf:
